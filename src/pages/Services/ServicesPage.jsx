@@ -159,7 +159,7 @@ const ServicesPage = () => {
                     {/* Section Header */}
                     <div className="text-center mb-16 md:mb-20">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 mb-4">
-                            Our <span className="text-teal-600">Service</span> Portfolio
+                            Our <span className="text-primary">Service</span> Portfolio
                         </h2>
                         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
                             Choose the perfect logistics solution for your business needs
