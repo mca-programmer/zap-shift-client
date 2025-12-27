@@ -24,6 +24,7 @@ import CompletedDeliveries from "../pages/Dashboard/CompletedDeliveries/Complete
 import ParcelTrack from "../pages/ParcelTrack/ParcelTrack";
 import DashboardHome from "../pages/Dashboard/DashboardHome/DashboardHome";
 import ServicesPage from './../pages/Services/ServicesPage';
+import AboutPage from './../pages/Aboutpage/Aboutpage';
 
 export const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
       {
         path: 'services',
         element: <ServicesPage></ServicesPage>
+      },
+      {
+        path: 'about',
+        element: <AboutPage></AboutPage>
       },
       {
         path: 'rider',
